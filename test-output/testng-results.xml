@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-05-21T13:38:37 AEST" name="Default suite" finished-at="2024-05-21T13:38:58 AEST" duration-ms="21684">
+    <groups>
+    </groups>
+    <test started-at="2024-05-21T13:38:37 AEST" name="Default test" finished-at="2024-05-21T13:38:58 AEST" duration-ms="21684">
+      <class name="supermarketframework.ManageOfferCode">
+        <test-method is-config="true" signature="initialization(java.lang.String)[pri:0, instance:supermarketframework.ManageOfferCode@6b927fb]" started-at="2024-05-21T13:38:37 AEST" name="initialization" finished-at="2024-05-21T13:38:43 AEST" duration-ms="6000" status="PASS">
+          <params>
+            <param index="0">
+              <value is-null="true"/>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialization -->
+        <test-method signature="verifyMaanageOffercodePage()[pri:0, instance:supermarketframework.ManageOfferCode@6b927fb]" started-at="2024-05-21T13:38:43 AEST" name="verifyMaanageOffercodePage" finished-at="2024-05-21T13:38:58 AEST" duration-ms="15247" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyMaanageOffercodePage -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:supermarketframework.ManageOfferCode@6b927fb]" started-at="2024-05-21T13:38:58 AEST" name="tearDown" finished-at="2024-05-21T13:38:58 AEST" duration-ms="356" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- supermarketframework.ManageOfferCode -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

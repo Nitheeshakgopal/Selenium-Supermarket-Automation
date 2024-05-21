@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="Test">
+    <classes>
+      <class name="com.supermartket.test.CreateDeliveryBoy"/>
+      <class name="com.supermartket.test.ManageOfferCode"/>
+      <class name="PageObjects.LoginPage"/>
+      <class name="com.supermartket.test.BaseTest"/>
+      
+      <class name="com.supermartket.test.ManageSubcategory"/>
+      <class name="com.supermartket.test.ManageUser"/>
+      <class name="com.supermartket.test.manageOrderPage"/>
+     
+      <class name="com.supermartket.test.LoginTestCase"/>
+      <class name="com.supermartket.test.ManageLocation"/>
+      <class name="supermarketframework.ManageSubcategory"/>
+     
+    
+      <class name="com.supermartket.test.AddUsers"/>
+      
+      <class name="supermarketframework.BaseTest"/>
+      <class name="supermarketframework.ManageOfferCode"/>
+      <class name="com.supermartket.test.CreatNewsTest"/>
+      
+      <class name="PageObjects.HomePage"/>
+      <class name="com.supermartket.test.ManageSliderPage"/>
+      <class name="supermarketframework.LoginTestCase"/>
+      <class name="supermarketframework.manageOrderPage"/>
+      <class name="supermarketframework.AddUsers"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
